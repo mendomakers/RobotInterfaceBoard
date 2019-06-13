@@ -1,4 +1,54 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 26 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ESP32-DEVKITC-32D:ESP32-DEVKITC-32D U1
+U 1 1 5D0273D0
+P 7750 2350
+F 0 "U1" H 7750 3517 50  0000 C CNN
+F 1 "ESP32-DEVKITC-32D" H 7750 3426 50  0000 C CNN
+F 2 "MODULE_ESP32-DEVKITC-32D" H 7750 2350 50  0001 L BNN
+F 3 "None" H 7750 2350 50  0001 L BNN
+F 4 "Espressif Systems" H 7750 2350 50  0001 L BNN "Field4"
+F 5 "Eval Board For Esp-Wroom-32" H 7750 2350 50  0001 L BNN "Field5"
+F 6 "None" H 7750 2350 50  0001 L BNN "Field6"
+F 7 "Unavailable" H 7750 2350 50  0001 L BNN "Field7"
+F 8 "ESP32-DEVKITC-32D" H 7750 2350 50  0001 L BNN "Field8"
+	1    7750 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x19 J?
+U 1 1 5D0275DD
+P 8950 2350
+F 0 "J?" H 9030 2392 50  0000 L CNN
+F 1 "Conn_01x19" H 9030 2301 50  0000 L CNN
+F 2 "" H 8950 2350 50  0001 C CNN
+F 3 "~" H 8950 2350 50  0001 C CNN
+	1    8950 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x19 J?
+U 1 1 5D027693
+P 6550 2350
+F 0 "J?" H 6470 3467 50  0000 C CNN
+F 1 "Conn_01x19" H 6470 3376 50  0000 C CNN
+F 2 "" H 6550 2350 50  0001 C CNN
+F 3 "~" H 6550 2350 50  0001 C CNN
+	1    6550 2350
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
