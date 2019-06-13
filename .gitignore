@@ -46,3 +46,7 @@ eagle.epf
 _*
 *-bak
 sym-lib-table
+fp-lib-table
+_autosave-ribv6.kicad_pcb
+ribv6-cache.lib
+ribv6.bak
