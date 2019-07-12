@@ -24,7 +24,7 @@ https://www.java.com/en/download/manual.jsp
 
 Download the Eclipse Oxygen for C Development from here:
 
-[https://www.eclipse.org/downloads/packages/release/oxygen/2](https://www.eclipse.org/downloads/packages/release/oxygen/2)
+[https://www.eclipse.org/downloads/packages/release/2018-12/r](https://www.eclipse.org/downloads/packages/release/2018-12/r)
 
 ![Select this Eclipse](/docs/whichEclpse.png)
 
