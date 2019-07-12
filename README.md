@@ -376,5 +376,5 @@ DFRobotIRPosition
 
 * It is Arduino compatible for programming and Library support
 
-* It is an open source design of the DevKit-C module, using an open source MIPS core and open soruce tool-chain
+* It is an open source design of the DevKit-C module, using an open soruce tool-chain
 
