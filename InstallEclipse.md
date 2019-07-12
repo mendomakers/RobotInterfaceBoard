@@ -18,12 +18,15 @@ If you see anything other than 1.8.something, remove Java then install it from:
   
 https://www.java.com/en/download/manual.jsp  
 
+![Select this java on windows](/docs/whichJavaWindows.png)
+
 ## Install Eclipse and the Sloeber plugin (If the computer doesn't already have it)
 
 Download the Eclipse Oxygen for C Development from here:
 
 [https://www.eclipse.org/downloads/packages/release/oxygen/2](https://www.eclipse.org/downloads/packages/release/oxygen/2)
 
+![Select this Eclipse](/docs/whichEclipse.png)
 
 Install Eclipse on C drive if using lab machine
 
