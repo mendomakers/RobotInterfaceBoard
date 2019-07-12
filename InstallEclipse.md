@@ -26,7 +26,7 @@ Download the Eclipse Oxygen for C Development from here:
 
 [https://www.eclipse.org/downloads/packages/release/oxygen/2](https://www.eclipse.org/downloads/packages/release/oxygen/2)
 
-![Select this Eclipse](/docs/whichEclipse.png)
+![Select this Eclipse](/docs/whichEclpse.png)
 
 Install Eclipse on C drive if using lab machine
 
