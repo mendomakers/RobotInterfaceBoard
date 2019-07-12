@@ -20,23 +20,16 @@ https://www.java.com/en/download/manual.jsp
 
 ## Install Eclipse and the Sloeber plugin (If the computer doesn't already have it)
 
-Download the eclipse installer from here:
+Download the Eclipse Oxygen for C Development from here:
 
-[https://www.eclipse.org/downloads/](https://www.eclipse.org/downloads/)
+[https://www.eclipse.org/downloads/packages/release/oxygen/2](https://www.eclipse.org/downloads/packages/release/oxygen/2)
 
-![alt text](/docs/downloadEclipseForC.png)
 
-Run the Eclipse installer
+Install Eclipse on C drive if using lab machine
 
-![alt text](/docs/runEclipesInstaller.png)
-
-Install the C developemt version. 
-
-![alt text](/docs/selectCversion.png)
-
-Install Eclipse on R drive if using lab machine
-
-![alt text](/docs/installOnRDrive.png)
+```
+C:\eclipse\
+```
 
 Once the install is done, open eclipse and go to the workbench. 
 
