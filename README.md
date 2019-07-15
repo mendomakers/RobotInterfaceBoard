@@ -176,20 +176,6 @@ Fresh install is genearlly reccomended every 6 months. Install disk are availibl
 
 OneDrive and Dropbox conflict with the install process and must be fully removed from the user file paths. 
 
-Eclipse should be installed in 
-
-```
-C:/eclipse
-```
-
-Arduino should be installed in 
-
-```
-C:/RBE-arduino-install/
-```
-
-After installation of both, ensure your user has write access to the directories. 
-
 ### Unsupported OS's
 
 MacOS is unsupported and only intermittantly working. Drivers have been an issue with programming our board, and virtualization of Windows within OSX is tested non-working. If you have Mac OSX please install a fresh copy of Windows 10 nativly and dual boot. 
@@ -210,42 +196,16 @@ You can follow this tutorial to install it:
 
 https://www.youtube.com/watch?v=aTVOTY93XXU
 
-# Arduino and the ESP32 Toolchain
+# Arduino and the ESP32 Toolchain and Sloeber Eclipse
 
 This is installed on the lab machines already. 
 
-After extracting the Zip file, install the 64 bit version of the driver. 
+Download and install this, do not change any default values
 
-https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers
+https://github.com/WPIRoboticsEngineering/ESP32ArduinoEclipseInstaller/releases/download/0.0.9/WPI-RBE-esp32-0.0.9.exe
 
-
-Arduino IDE download :
-
-https://github.com/WPIRoboticsEngineering/RobotInterfaceBoard/releases/download/rev5-1/RBE-arduino110718.zip
-
-And extract it on your computer in 
-
-```
-C:/RBE-arduino-install/
-```
-
-Make a sketchbook folder in C:/, or (R:/ on the lab machines) make a folder:
-
-```
-C:/RBEArduino/
-```
-
-Make sure it is user level read-write
-
-Run Arduino in the extracted folder.
-
-
-Open the Preferences in Arduino and set the Sketchbook location to:
-
-```
-C:/RBEArduino/
-```
-Use [Arduino IDE and Github Desktop](https://github.com/WPIRoboticsEngineering/RobotInterfaceBoard/blob/master/UseArduinoGithubDesktop.md)
+## Optional
+Instrections to Optionally just Use [Arduino IDE and Github Desktop](https://github.com/WPIRoboticsEngineering/RobotInterfaceBoard/blob/master/UseArduinoGithubDesktop.md)
 
 After your Arduino is installed and the ESP32 toolchain is up and running, open Arduino IDE and Select your board:
 
@@ -275,7 +235,7 @@ Mac instructions (NOT SUPPORTED BY RBE, HAS LOTS OF PROBLEMS):
 https://github.com/espressif/arduino-esp32/blob/master/docs/arduino-ide/mac.md
 
 
-## Install Eclipse And Setup Eclipse on Personal Machine
+## Setup Eclipse on Personal Machine
 
  [See Eclipse install instructions in InstallEclipse.md](https://github.com/WPIRoboticsEngineering/RobotInterfaceBoard/blob/master/InstallEclipse.md)
  
