@@ -169,14 +169,14 @@ Download and install this, do not change any default values
 
 https://github.com/WPIRoboticsEngineering/ESP32ArduinoEclipseInstaller/releases/download/0.0.9/WPI-RBE-esp32-0.0.9.exe
  
- [Open Projects in Eclipse using the Eclipse instructions](https://github.com/WPIRoboticsEngineering/RobotInterfaceBoard/blob/master/UseEclipse.md)
+ [Instructions to Open Projects in Eclipse](https://github.com/WPIRoboticsEngineering/RobotInterfaceBoard/blob/master/UseEclipse.md)
  
 -----
 ## Optional Setup Instructions
 
 ### Setup Eclipse from scratch without the handy installer on a Personal Machine
 
- [See Eclipse install instructions in InstallEclipse.md](https://github.com/WPIRoboticsEngineering/RobotInterfaceBoard/blob/master/InstallEclipse.md)
+ [See From Scratch Eclipse install instructions](https://github.com/WPIRoboticsEngineering/RobotInterfaceBoard/blob/master/InstallEclipse.md)
 
 
 Instrections to Optionally just Use [Arduino IDE and Github Desktop](https://github.com/WPIRoboticsEngineering/RobotInterfaceBoard/blob/master/UseArduinoGithubDesktop.md)
