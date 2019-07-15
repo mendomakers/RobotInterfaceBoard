@@ -98,44 +98,9 @@ The ESP32 can generate up to 16 simultanious Servo signels.
 ```
 
 ### Timer distribution for PWM
-The ESP32 has 4 timers availible for use in PWM generation. All PWM channels using a given timer have the same base frequency. Changing the frequency of a channel will change the frequency of other channels. Note the chart for how the PWM channel allocations coorospond to timers:
+The ESP32 has 4 timers availible for use in PWM generation. All PWM channels using a given timer have the same base frequency. Changing the frequency of a channel will change the frequency of other channels. Note the chart for the PWM channel allocations coorospond to timers.
 
-```
-/*
- * LEDC Chan to Group/Channel/Timer Mapping
-** ledc: 0  => Group: 0, Channel: 0, Timer: 0
-** ledc: 1  => Group: 0, Channel: 1, Timer: 0
-** ledc: 2  => Group: 0, Channel: 2, Timer: 1
-** ledc: 3  => Group: 0, Channel: 3, Timer: 1
-** ledc: 4  => Group: 0, Channel: 4, Timer: 2
-** ledc: 5  => Group: 0, Channel: 5, Timer: 2
-** ledc: 6  => Group: 0, Channel: 6, Timer: 3
-** ledc: 7  => Group: 0, Channel: 7, Timer: 3
-** ledc: 8  => Group: 1, Channel: 0, Timer: 0
-** ledc: 9  => Group: 1, Channel: 1, Timer: 0
-** ledc: 10 => Group: 1, Channel: 2, Timer: 1
-** ledc: 11 => Group: 1, Channel: 3, Timer: 1
-** ledc: 12 => Group: 1, Channel: 4, Timer: 2
-** ledc: 13 => Group: 1, Channel: 5, Timer: 2
-** ledc: 14 => Group: 1, Channel: 6, Timer: 3
-** ledc: 15 => Group: 1, Channel: 7, Timer: 3
-*/
-```
 
-When using ESP32PWM objects, changing the frequency will check for timer cross-talk. If you re-set the frequency of a PWM indirectly, the object will print this warning:
-
-```
-	WARNING PWM channel 1 shares a timer with 0
-	changing the frequency to 330.00 Hz will ALSO change channel 0 
-	from its previous frequency of 50.00 Hz
-```
-
-If you get this warning you can space out the attach events of the hardware using ESP32PWM using dummy objects. To consume a channel without activating a pwm, you can add this to your code between attach method calls. 
-
-```
-ESP32PWM dummy;
-dummy.getChannel();
-```
 ## Availible DAC pins
 ```
 25
@@ -203,8 +168,17 @@ This is installed on the lab machines already.
 Download and install this, do not change any default values
 
 https://github.com/WPIRoboticsEngineering/ESP32ArduinoEclipseInstaller/releases/download/0.0.9/WPI-RBE-esp32-0.0.9.exe
+ 
+ [Open Projects in Eclipse using the Eclipse instructions](https://github.com/WPIRoboticsEngineering/RobotInterfaceBoard/blob/master/UseEclipse.md)
+ 
+-----
+## Optional Setup Instructions
 
-## Optional
+### Setup Eclipse from scratch without the handy installer on a Personal Machine
+
+ [See Eclipse install instructions in InstallEclipse.md](https://github.com/WPIRoboticsEngineering/RobotInterfaceBoard/blob/master/InstallEclipse.md)
+
+
 Instrections to Optionally just Use [Arduino IDE and Github Desktop](https://github.com/WPIRoboticsEngineering/RobotInterfaceBoard/blob/master/UseArduinoGithubDesktop.md)
 
 After your Arduino is installed and the ESP32 toolchain is up and running, open Arduino IDE and Select your board:
@@ -234,12 +208,9 @@ Mac instructions (NOT SUPPORTED BY RBE, HAS LOTS OF PROBLEMS):
 
 https://github.com/espressif/arduino-esp32/blob/master/docs/arduino-ide/mac.md
 
+## END Optional
+-----
 
-## Setup Eclipse on Personal Machine
-
- [See Eclipse install instructions in InstallEclipse.md](https://github.com/WPIRoboticsEngineering/RobotInterfaceBoard/blob/master/InstallEclipse.md)
- 
- [Open Projects in Eclipse using the Eclipse instructions](https://github.com/WPIRoboticsEngineering/RobotInterfaceBoard/blob/master/UseEclipse.md)
 
 # Arduino Libraries
 ## HOWTO
