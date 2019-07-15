@@ -1,3 +1,20 @@
+# Easy Mode
+
+Download and install this, do not change any default values
+
+https://github.com/WPIRoboticsEngineering/ESP32ArduinoEclipseInstaller/releases/download/0.0.9/WPI-RBE-esp32-0.0.9.exe
+
+## Thats it, its all installed and configured
+
+You are done, do not continue, go here:
+
+ [Open Projects in Eclipse using the Eclipse instructions](https://github.com/WPIRoboticsEngineering/RobotInterfaceBoard/blob/master/UseEclipse.md)
+
+
+# HARD MODE
+
+You most likely do not want to be here, but just in case you want to know how the sausage is made, here you go...
+
 # Make Sure you have Java 8, *not 9, 10, or 11*
 
 Check your java version by opening CMD and typing 
