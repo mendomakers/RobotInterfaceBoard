@@ -6,7 +6,10 @@ https://github.com/WPIRoboticsEngineering/ESP32ArduinoEclipseInstaller/releases/
 
 ## MacOS Stand Alone install
 
-https://github.com/WPIRoboticsEngineering/ESP32ArduinoEclipseInstaller/releases/download/0.0.0/sloeber-MacOS-Esp32.zip
+[Sloeber](https://github.com/WPIRoboticsEngineering/ESP32ArduinoEclipseInstaller/releases/download/0.0.0/sloeber-MacOS-Esp32.zip)
+
+[Driver](https://github.com/WPIRoboticsEngineering/ESP32ArduinoEclipseInstaller/releases/download/0.0.0/SiLabsUSBDriverDisk.dmg)
+
 
 ## Thats it, its all installed and configured
 
