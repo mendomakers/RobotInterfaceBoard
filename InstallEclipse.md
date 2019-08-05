@@ -2,7 +2,7 @@
 
 Download and install this, do not change any default values
 
-https://github.com/WPIRoboticsEngineering/ESP32ArduinoEclipseInstaller/releases/download/0.1.0/WPI-RBE-esp32-0.1.0.exe
+[Windows Installer](https://github.com/WPIRoboticsEngineering/ESP32ArduinoEclipseInstaller/releases/download/0.1.0/WPI-RBE-esp32-0.1.0.exe)
 
 ## MacOS Stand Alone install
 
