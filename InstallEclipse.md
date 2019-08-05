@@ -2,7 +2,11 @@
 
 Download and install this, do not change any default values
 
-https://github.com/WPIRoboticsEngineering/ESP32ArduinoEclipseInstaller/releases/download/0.0.9/WPI-RBE-esp32-0.0.9.exe
+https://github.com/WPIRoboticsEngineering/ESP32ArduinoEclipseInstaller/releases/download/0.1.0/WPI-RBE-esp32-0.1.0.exe
+
+## MacOS Stand Alone install
+
+https://github.com/WPIRoboticsEngineering/ESP32ArduinoEclipseInstaller/releases/download/0.0.0/sloeber-MacOS-Esp32.zip
 
 ## Thats it, its all installed and configured
 
