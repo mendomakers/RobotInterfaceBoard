@@ -1,5 +1,7 @@
 1. Create a fresh, Private repository
 
+![](/docs/startFreshArduinoProject/makeNewRepo1.png)
+
 1. Ignore project files
 
 Edit the .gitignore file in the repo
