@@ -2,9 +2,9 @@
 
 1. Ignore project files
 
-Edit the 
+Edit the .gitignore file in the repo
 
-    Add these lines: 
+Add these lines: 
 
    ```
    .metadata
