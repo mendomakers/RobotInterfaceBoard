@@ -254,6 +254,10 @@ SimplePacketComs
 
 DFRobotIRPosition
 
+# Start a Fresh Arduino program
+
+[See StartFreshSketch.md](StartFreshSketch.md)
+
 
 # FAQ and troubleshooting
 
