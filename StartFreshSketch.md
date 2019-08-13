@@ -1,6 +1,6 @@
 1. Create a fresh, Private repository In the Github.com Browser
 
-![](/docs/startFreshArduinoProject/makeNewRepo1.png)
+![](docs/startFreshArduinoProject/makeNewRepo1.png)
 
 1. Ignore project files
 
