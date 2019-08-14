@@ -2,9 +2,11 @@
 
 ![](docs/startFreshArduinoProject/makeNewRepo1.png)
 
-1. Ignore project files
+1. Edit .gitignore to Ignore project files
 
 Edit the .gitignore file in the repo
+
+![](docs/startFreshArduinoProject/updateIgnore1.png)
 
 Add these lines: 
 
@@ -21,19 +23,39 @@ Add these lines:
    .project
    .cproject
    ```
+![](docs/startFreshArduinoProject/updateIgnore2.png)
 
+Hit commit changes.
 
 1. Clone the repository
 
+![](docs/startFreshArduinoProject/clonerepo1.png)
+
+![](docs/startFreshArduinoProject/clonerepo2.png)
+
+![](docs/startFreshArduinoProject/clonerepo3.png)
+
+![](docs/startFreshArduinoProject/clonerepo4.png)
+
+
 1. Create new Arduino sketch
 
-1. Add the .ino files
+![](docs/startFreshArduinoProject/createSketch1.png)
 
+![](docs/startFreshArduinoProject/createSketch2.png)
+
+![](docs/startFreshArduinoProject/createSketch3.png)
 
 
 1. Commit .ino and .gitignore files
 
-1. Add any new files created to index
 
-1. Commit and push changes
+![](docs/startFreshArduinoProject/commitIno.png)
+
+1. Push changes
+
+
+![](docs/startFreshArduinoProject/pushUpstream.png)
+
+
 
