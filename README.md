@@ -254,9 +254,11 @@ SimplePacketComs
 
 DFRobotIRPosition
 
-# Start a Fresh Arduino program
+# Start a Fresh Arduino Sketch
 
-[See StartFreshSketch.md](StartFreshSketch.md)
+[Create a Sketch with Git (STRONGLY recommended)](StartFreshSketch.md)
+
+[Create a Sketch with Git (STRONGLY discourged)](StartFreshSketchNOGIT.md)
 
 
 # FAQ and troubleshooting
