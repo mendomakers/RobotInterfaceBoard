@@ -21,6 +21,22 @@ You are done, do not continue, go here:
 
 # HARD MODE
 
+## Personal Computer install Linux   (Unsupported)
+
+Ubuntu 18.04 Instructions:
+
+[InstallToolchainOnUbuntu18-04.md](InstallToolchainOnUbuntu18-04.md)
+
+Ubuntu 16.04 Instructions:
+
+https://github.com/espressif/arduino-esp32/blob/master/docs/arduino-ide/debian_ubuntu.md
+
+
+## END Optional
+-----
+
+
+
 You most likely do not want to be here, but just in case you want to know how the sausage is made, here you go...
 
 # Make Sure you have Java 8, *not 9, 10, or 11*

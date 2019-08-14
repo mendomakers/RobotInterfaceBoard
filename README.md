@@ -171,46 +171,6 @@ Download and install this, do not change any default values
 
  [Instructions to Open Projects in Eclipse](https://github.com/WPIRoboticsEngineering/RobotInterfaceBoard/blob/master/UseEclipse.md)
  
------
-## Optional Setup Instructions
-
-### Setup Eclipse from scratch without the handy installer on a Personal Machine
-
- [See From Scratch Eclipse install instructions](https://github.com/WPIRoboticsEngineering/RobotInterfaceBoard/blob/master/InstallEclipse.md)
-
-
-Instrections to Optionally just Use [Arduino IDE and Github Desktop](https://github.com/WPIRoboticsEngineering/RobotInterfaceBoard/blob/master/UseArduinoGithubDesktop.md)
-
-After your Arduino is installed and the ESP32 toolchain is up and running, open Arduino IDE and Select your board:
-
-```
-Tools->Board->ESP32 Dev Module
-```
-
-And select your port:
-
-```
-Tools->Port-> (the port that your arduino is connected to)
-```
-
-## Personal Computer install Linux / Mac  (Unsupported)
-
-Ubuntu 18.04 Instructions:
-
-[InstallToolchainOnUbuntu18-04.md](InstallToolchainOnUbuntu18-04.md)
-
-Ubuntu 16.04 Instructions:
-
-https://github.com/espressif/arduino-esp32/blob/master/docs/arduino-ide/debian_ubuntu.md
-
-
-Mac instructions (NOT SUPPORTED BY RBE, HAS LOTS OF PROBLEMS):
-
-https://github.com/espressif/arduino-esp32/blob/master/docs/arduino-ide/mac.md
-
-## END Optional
------
-
 
 # Arduino Libraries
 ## HOWTO
