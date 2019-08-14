@@ -258,7 +258,7 @@ DFRobotIRPosition
 
 [Create a Sketch with Git (STRONGLY recommended)](StartFreshSketch.md)
 
-[Create a Sketch with Git (STRONGLY discourged)](StartFreshSketchNOGIT.md)
+[Create a Sketch without Git (Discouraged)](StartFreshSketchNOGIT.md)
 
 
 # FAQ and troubleshooting
