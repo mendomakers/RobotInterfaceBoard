@@ -100,6 +100,9 @@ The ESP32 can generate up to 16 simultanious Servo signels.
 ### Timer distribution for PWM
 The ESP32 has 4 timers availible for use in PWM generation. All PWM channels using a given timer have the same base frequency. Changing the frequency of a channel will change the frequency of other channels. Note the chart for the PWM channel allocations coorospond to timers.
 
+### Timer Interrupts
+
+See https://techtutorialsx.com/2017/10/07/esp32-arduino-timer-interrupts/
 
 ## Availible DAC pins
 ```
